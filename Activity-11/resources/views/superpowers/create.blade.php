@@ -1,3 +1,4 @@
+@include('shere.head')
 <!DOCTYPE html>
 <html lang="en">
 <head>

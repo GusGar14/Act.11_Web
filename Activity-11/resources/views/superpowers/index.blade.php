@@ -1,3 +1,4 @@
+@include('shere.head')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index Superowers</title>
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"></link>
 </head>
 <body>
 <h1>SuperPowers</h1>
@@ -29,6 +31,8 @@
         @endforelse
     </tbody>
 </table>  
+
+<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
 
 <a href="{{route ('superpowers.create')}}">Create Superowers</a>
 </body>
